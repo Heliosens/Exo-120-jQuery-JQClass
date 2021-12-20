@@ -12,14 +12,23 @@ body {
     width: 100%;
 }
 
+main {
+    width: 100%;
+    padding-top: 4%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
 section {
     display: flex;
+    justify-content: center;
 }
 
 section div {
-    margin: 2%;
-    width: 5%;
-    padding-bottom: 5%;
+    margin: 1.5%;
+    width: 6%;
+    padding-bottom: 6%;
     border: 1px solid darkred;
 }
 
@@ -29,4 +38,27 @@ section div {
 
 .losange {
     transform: rotate(45deg);
+}
+
+.painted {
+    background-color: teal;
+}
+
+aside {
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+aside:first-child {
+    flex-basis: 90%;
+}
+
+aside:last-child {
+    display: flex;
+    flex-direction: column;
+}
+
+button {
+    margin: 1rem 0;
 }
